@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>
+Skills
+</title>
+<link href="../css/styles.css" rel="stylesheet">
+<script  type="text/javascript" src="../js/script1.js">
+
+
+</script>
+</head>
+<div class="header"></div>
+<div id="navbar" class="sticky">
+<a  id="1"  href=index.html onmouseover="Onmouseover(1)" onmouseout="Onmouseout(1)">Home</a>
+  <a  id="2"  href=2.html onmouseover="Onmouseover(2)" onmouseout="Onmouseout(2)">Education</a>
+  <a  id="3" class="active" href=3.html onmouseover="Onmouseover(3)" onmouseout="Onmouseout(3)">Skills</a>
+  <a  id="4" href=4.html  onmouseover="Onmouseover(4)" onmouseout="Onmouseout(4)">IIITHGallery</a>
+  
+ 
+</div> 
+<br>
+<br>
+<body style="background-color:#990066;">
+ 
+    <div class="form">
+        <h4>NAME</h4>
+  
+        <input type="text" id="name" name="Name" placeholder="*This is a required field">
+        <h4>SKILL</h4>
+        <input type="text" id="skill" name="Skill" placeholder="*This is a required field" ></br>
+        <h4>LEVEL</h4>
+        <select id="level" name="Level">
+          <option value="Beginner">Beginner</option>
+          <option value="Intermediate">Intermediate</option>
+          <option value="Proficient">Proficient</option>
+        </select></br>
+        <center>
+      <button onclick="AddResponse()" id="btn">Add Response</button></center>
+      </div>
+ 
+
+   
+      </div>
+      <div>
+      <table id="response">
+      <tr><th>NAME</th>
+      <th>SKILL</th>
+      <th>LEVEL</th></tr></table>
+</body></html>
